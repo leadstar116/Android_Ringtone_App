@@ -1,0 +1,10 @@
+
+Version 1.4.0
+
+Changelog:
+----------
+
+ - Musician's Mode
+ - App rating widget
+ - Ability to export alarm and notification ringtones
+ - Minor bugfixes

@@ -1,0 +1,33 @@
+<resources>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- VERSION 2 -->
+    <string name="ad_app_id">ca-app-pub-4372421014630851~8083218352</string>
+    <string name="ad_unit_id">ca-app-pub-4372421014630851/6454441916</string>
+
+    <string name="rate_dialog_title">Rate this app</string>
+    <string name="rate_dialog_message">If you enjoy using this app, would you mind taking a moment to rate it? It won\'t take more than a minute. Thanks for your support!</string>
+    <string name="rate_dialog_ok">Rate It Now</string>
+    <string name="rate_dialog_cancel">Remind Me Later</string>
+    <string name="rate_dialog_no">No, Thanks</string>
+    <string name="title_activity_settings">Preferences</string>
+
+    <!-- Tutorial -->
+    <string name="title_activity_tutorial">About</string>
+
+    <string name="tab_text_1">I</string>
+    <string name="tab_text_2">II</string>
+    <string name="tab_text_3">III</string>
+    <string name="tab_text_4">IV</string>
+
+    <string name="tab_content_1">\nWelcome to the world of musical cryptography.\n\nIn the early 1900s two master music composers arranged the English alphabet into seven columns.\n\nABCDEFG\nHIJKLMN\nOPQRSTU\nVWXYZ\n\nThis became known as the French musical cryptogram cipher. \n\nToday, we hope to present to you an new instrument in composing music. It is a stepping stone towards a new way to enjoy melodies you create and personalize them by entering names of your favorite people, places, and things.\n\n It is also a new tool to assist budding composers realizing themselves as actual musicians whose own names can be heard as a ringtone. It teaches memorization for identifying how particular notes sound.\n\nStep one: Tap the field of play.\n\nStep two: Choose an instrument.\n\nStep three: Tap Play to hear it repeat. \n \n</string>
+
+    <string name="tab_content_2">\nThe setting icon on the right allows you to modify your melody:\n• 47 instruments\n• 89 scales\n• 12 key changes\n•  3 drum patterns/live drums/none\n•  5 bass octaves\n•  5 treble octaves\n•  60-360 words per minute\n\nThe menu on the left allows you to:\n\n• save a melody\n• load saved melodies\n• set as phone ringtone\n• set as notification ringtone\n• set as alarm ringtone\n\nThe keymap displays which notes play for which letters. This also allows you to "solo" words over your creations.\n\nThe randomizer allows you to add personalized words into a randomly created unique song.\n\nThat\'s it!\n \n</string>
+
+    <string name="tab_content_3">\nStacking letters, including actual note names (ABCDEFG) play chords. \n\nHere is a list of current instruments available to draw out and sustain the note by adding dots (...) after any character:\n\n• Rock Organ\n• Church Organ\n• Accordion\n• Distortion Guitar\n• Violin\n• Viola\n• Tremelo Strings\n• String Ensemble 1\n• String Ensemble 2\n• Trombone\n• French Horn\n• Oboe\n• Clarinet\n• Piccolo\n• Flute\n• Pan Flute\n• Shakuhatchi\n• Whistle\n• Lead (square)\n• Pad (new age)\n• Pad (warm)\n• Bag Pipe\n• Fiddle\n• Shanai\n\nExample:\n\nCopy (below) into the field of play and set it to the key of G and in the MAJOR scale. Set the instrument to STRING ENSEMBLE 2. \n\n    T..X...Z...............Q.R..............\nV..........W..........V..........S..........\nT..........S..........T..........Q..........\nQ..........Q..........R..........O..........\nM..........J..........K..........H..........\nF..........C..........D..........A.......... \n \n</string>
+
+    <string name="tab_content_4">\nYou will find incidentally occurring words as you become more familiar with your new instrument.\n\nWait, what is Musician\'s Mode? \n\nTo hear a single letter as a chord, here is its current specification.\n\nMusician\'s Mode Keymap\n\nInstance of Y and Z in play activates Augmented and Diminished chords.\n\nA   h   BC   i   D    j   E F  k  G   l\nA(a#)BC(c#)D(d#)EF(f#)G(g#)\n\n    A -> A Maj (A)(C#)(E)\n\n    H -> Bb Maj (Bb)(D)(F)\n\n    B -> B Maj (B)(D#)(F#)\n\n    C -> C Maj (C)(E)(G)\n\n    I -> C# Maj (C#)(E#)(G#)\n\n    D -> D Maj (D)(F#)(A)\n\n    J -> Eb Maj (Eb)(G)(Bb)\n\n    E -> E Maj (E)(G#)(B)\n\n    F -> F Maj (F)(A)(C)\n\n    K -> F# Maj (F#)(A)(C#)\n\n    G -> G Maj (G)(B)(D)\n\n    L -> Ab Maj (Ab)(C)(Eb)\n\n M  t    NO   u   P   v  QR  w  S  x\n  A(a#)BC(c#)D(d#)EF(f#)G(g#)\n\n\n    M -> A Min (A)(C)(E)\n\n    T -> Bb Min (Bb)(Db)(F)\n\n    N -> B Min  (B)(D)(F#)\n\n    O -> C Min (C)(Eb)(G)\n\n    U -> C# Min (C#)(E)(G#)\n\n    P -> D Min (D)(F)(A)\n\n    V -> Eb Min (Eb)(Gb)(Bb)\n\n    Q -> E Min (E)(G)(B)\n\n    R -> F Min  (F)(Ab)(C)\n\n    W -> F# Min (F#)(A)(C#)\n\n    S -> G Min (G)(Bb)(D)\n\n    X -> Ab Min (Ab)(B)(Eb)\n\n\nEnjoy your name enciphered in music. \n \n </string>
+
+</resources>

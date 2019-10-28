@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:maxLines="20"
+        android:singleLine="false"
+        android:text="An unexpected error occurred."
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:maxLines="20"
+        android:singleLine="false"
+        android:text="We are sorry about that! Would you like to send an error report to the developer? This will help us improve our product. The report does not contain personally identifiable information." />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="Message (optional)"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/crash_report_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:layout_margin="4dp"/>
+</LinearLayout>

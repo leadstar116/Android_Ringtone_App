@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "707060393510",
+    "firebase_url": "https://title-waves.firebaseio.com",
+    "project_id": "title-waves",
+    "storage_bucket": "title-waves.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:707060393510:android:2eb7a784f244abaa",
+        "android_client_info": {
+          "package_name": "randyg.titlewaves"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "707060393510-pl0osgrorn76j0a3hc05r79arrjfvp0c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7QAYk9-jR_zHaVGrL_9SJ2Ptzd6EbOVo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "707060393510-pl0osgrorn76j0a3hc05r79arrjfvp0c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:707060393510:android:ea9db3b6b1330569",
+        "android_client_info": {
+          "package_name": "randyg.titlewaves.beta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "707060393510-pl0osgrorn76j0a3hc05r79arrjfvp0c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7QAYk9-jR_zHaVGrL_9SJ2Ptzd6EbOVo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "707060393510-pl0osgrorn76j0a3hc05r79arrjfvp0c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:707060393510:android:07d53a38250265b0",
+        "android_client_info": {
+          "package_name": "randyg.titlewaves.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "707060393510-pl0osgrorn76j0a3hc05r79arrjfvp0c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7QAYk9-jR_zHaVGrL_9SJ2Ptzd6EbOVo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "707060393510-pl0osgrorn76j0a3hc05r79arrjfvp0c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

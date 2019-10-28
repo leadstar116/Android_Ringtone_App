@@ -1,0 +1,6 @@
+
+APK Name: titlewaves-demo-release.apk
+Application ID: randyg.titlewaves.demo
+
+APK Name: titlewaves-full-release.apk
+Application ID: randyg.titlewaves

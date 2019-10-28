@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/song_settings_scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/song_settings_root_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <Switch
+            android:id="@+id/chordModeSwitch"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_margin="4dp"
+            android:switchTextAppearance="@android:style/TextAppearance.Material"
+            android:text="Musician's Mode"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/instrumentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="Instrument" />
+
+        <Spinner
+            android:id="@+id/instrumentSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawSelectorOnTop="true"
+            android:spinnerMode="dialog" />
+
+        <TextView
+            android:id="@+id/drumPatternTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="Drum pattern" />
+
+        <Spinner
+            android:id="@+id/drumPatternSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawSelectorOnTop="true"
+            android:spinnerMode="dialog" />
+
+        <LinearLayout
+            android:id="@+id/musicianModeSettingsContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/textView453"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:text="Scale" />
+
+            <Spinner
+                android:id="@+id/mmscaleSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:spinnerMode="dialog" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/scaleSettingsContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/scaleTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:text="Scale" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/rootNoteSpinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawSelectorOnTop="true"
+                    android:spinnerMode="dialog" />
+
+                <Spinner
+                    android:id="@+id/scaleSpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:spinnerMode="dialog" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/baseOctaveTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:text="Base Octave" />
+
+            <SeekBar
+                android:id="@+id/baseOctaveSeekBar"
+                style="@style/Widget.AppCompat.SeekBar.Discrete"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:max="4"
+                android:progress="1"
+                android:progressBackgroundTint="#333"
+                android:progressTint="@color/colorAccent"
+                android:thumbTint="@color/colorAccent"
+                android:tickMarkTint="@color/colorAccent"
+                android:tickMarkTintMode="src_over"
+                app:tickMarkTint="@android:color/transparent" />
+
+            <TextView
+                android:id="@+id/octaveRangeTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:text="Octave Range" />
+
+            <SeekBar
+                android:id="@+id/octaveRangeSeekBar"
+                style="@style/Widget.AppCompat.SeekBar.Discrete"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:max="4"
+                android:progress="1"
+                android:progressBackgroundTint="#333"
+                android:progressTint="@color/colorAccent"
+                android:thumbTint="@color/colorAccent"
+                android:tickMarkTint="@color/colorAccent"
+                android:tickMarkTintMode="src_over"
+                app:tickMarkTint="@android:color/transparent" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tempoTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="Tempo" />
+
+        <SeekBar
+            android:id="@+id/tempoSeekBar"
+            style="@style/Widget.AppCompat.SeekBar.Discrete"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:max="30"
+            android:progress="10"
+            android:progressBackgroundTint="#333"
+            android:progressTint="@color/colorAccent"
+            android:thumbTint="@color/colorAccent"
+            android:tickMarkTint="@color/colorAccent"
+            android:tickMarkTintMode="src_over"
+            app:tickMarkTint="@android:color/transparent" />
+
+
+        <!--<ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </ListView>-->
+        <!--<com.kekstudio.pianochartview.PianoChartView
+            android:id="@+id/pianoChartView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible" />-->
+
+    </LinearLayout>
+</ScrollView>
+

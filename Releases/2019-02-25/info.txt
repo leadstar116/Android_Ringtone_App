@@ -1,0 +1,16 @@
+
+File Info:
+----------
+
+APK Name: titlewaves-demo-release.apk
+Application ID: randyg.titlewaves.demo
+
+APK Name: titlewaves-full-release.apk
+Application ID: randyg.titlewaves
+
+Changelog:
+----------
+
+ - Tap note names on the keymap to hear the tone
+ - When you hit play, the song starts from the cursor position
+ - Bugfixes

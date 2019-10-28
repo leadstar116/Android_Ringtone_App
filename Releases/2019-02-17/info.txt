@@ -1,0 +1,15 @@
+
+File Info:
+----------
+
+APK Name: titlewaves-demo-release.apk
+Application ID: randyg.titlewaves.demo
+
+APK Name: titlewaves-full-release.apk
+Application ID: randyg.titlewaves
+
+Changelog:
+----------
+
+ - Fixed ENOENT bug on kindle fire
+ - Increased min api level to 23 (the minimum supported android version is: Android 6.0 Marshmallow)

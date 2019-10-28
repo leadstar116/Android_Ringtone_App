@@ -1,0 +1,90 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 28
+        versionCode 19
+        versionName "1.7.1"
+        setProperty("archivesBaseName", "titlewaves")
+    }
+    flavorDimensions "version"
+    productFlavors {
+        // testing
+        beta {
+            dimension "version"
+            applicationId "randyg.titlewaves.beta"
+            resValue "string", "app_name", "Musical Cryptogram (Beta)"
+        }
+        // ad supported demo
+        demo {
+            dimension "version"
+            applicationId "randyg.titlewaves.demo"
+            resValue "string", "app_name", "Musical Cryptogram (Demo)"
+        }
+        // full
+        full {
+            dimension "version"
+            applicationId "randyg.titlewaves"
+            resValue "string", "app_name", "Musical Cryptogram"
+        }
+    }
+    sourceSets {
+        beta {
+            java.srcDirs = ['src/main/java', 'src/full/java']
+            res.srcDirs = ['src/main/res', 'src/full/res']
+            assets.srcDirs = ['src/main/assets']
+        }
+        demo {
+            java.srcDirs = ['src/main/java', 'src/demo/java']
+            res.srcDirs = ['src/main/res', 'src/demo/res']
+            assets.srcDirs = ['src/main/assets']
+        }
+        full {
+            java.srcDirs = ['src/main/java', 'src/full/java']
+            res.srcDirs = ['src/main/res', 'src/full/res']
+            assets.srcDirs = ['src/main/assets']
+        }
+    }
+    buildTypes {
+        debug {
+            //applicationIdSuffix ".debug"
+            debuggable true
+            ext.enableCrashlytics = true
+        }
+        release {
+            minifyEnabled true
+            ext.enableCrashlytics = true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+    implementation 'androidx.browser:browser:1.0.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.0.0'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel:2.0.0'
+    implementation 'androidx.lifecycle:lifecycle-livedata:2.0.0'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'androidx.preference:preference:1.1.0-alpha04'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    demoImplementation 'com.google.android.gms:play-services-ads:17.1.3'
+    implementation 'com.google.firebase:firebase-core:16.0.7'
+    implementation 'com.crashlytics.sdk.android:crashlytics:2.9.9'
+
+    //implementation 'com.github.Andy671:PianoChartView:v0.6.6'
+    implementation 'com.github.billthefarmer:mididriver:v1.16'
+    implementation 'com.github.hotchemi:android-rate:1.0.1'
+    implementation 'com.jaredrummler:colorpicker:1.1.0'
+}
+
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'io.fabric'

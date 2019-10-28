@@ -1,0 +1,70 @@
+
+<androidx.preference.PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        app:title="Appearance"
+        app:iconSpaceReserved="false">
+
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            app:key="show_grid"
+            app:title="Show Grid"
+            app:iconSpaceReserved="false"/>
+
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            app:key="text_glow"
+            app:title="Text Glow"
+            app:iconSpaceReserved="false"/>
+
+        <com.jaredrummler.android.colorpicker.ColorPreferenceCompat
+            android:key="grid_color"
+            android:defaultValue="0xFF151515"
+            android:title="Grid Color"
+            android:dependency="show_grid"
+            app:cpv_allowPresets="true"
+            app:cpv_allowCustom="true"
+            app:cpv_showAlphaSlider="true"
+            app:iconSpaceReserved="false" />
+
+        <com.jaredrummler.android.colorpicker.ColorPreferenceCompat
+            android:key="tile_color"
+            android:defaultValue="0xFF222222"
+            android:title="Tile Color"
+            app:cpv_allowPresets="true"
+            app:cpv_allowCustom="true"
+            app:cpv_showAlphaSlider="false"
+            app:iconSpaceReserved="false"/>
+
+        <com.jaredrummler.android.colorpicker.ColorPreferenceCompat
+            android:key="text_color"
+            android:defaultValue="0xFFEBE5E4"
+            android:title="Text Color"
+            app:cpv_allowPresets="true"
+            app:cpv_allowCustom="true"
+            app:cpv_showAlphaSlider="false"
+            app:iconSpaceReserved="false"/>
+
+        <com.jaredrummler.android.colorpicker.ColorPreferenceCompat
+            android:key="cursor_color"
+            android:defaultValue="0xFF0CA597"
+            android:title="Cursor Color"
+            app:cpv_allowPresets="true"
+            app:cpv_allowCustom="true"
+            app:cpv_showAlphaSlider="false"
+            app:iconSpaceReserved="false"/>
+
+        <ListPreference
+            app:defaultValue="24"
+            app:entries="@array/tile_size_keys"
+            app:entryValues="@array/tile_size_values"
+            app:key="tile_size_dpi"
+            app:title="Tile Size"
+            app:useSimpleSummaryProvider="true"
+            app:iconSpaceReserved="false"/>
+
+    </PreferenceCategory>
+
+</androidx.preference.PreferenceScreen>

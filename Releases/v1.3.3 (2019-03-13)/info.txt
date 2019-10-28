@@ -1,0 +1,16 @@
+
+File Info:
+----------
+
+APK Name: titlewaves-demo-release.apk
+Application ID: randyg.titlewaves.demo
+
+APK Name: titlewaves-full-release.apk
+Application ID: randyg.titlewaves
+
+Changelog:
+----------
+
+ - Crashlytics integration
+ - Error reporting dialog
+ - Ability to clear text

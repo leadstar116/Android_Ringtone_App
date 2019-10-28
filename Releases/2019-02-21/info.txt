@@ -1,0 +1,17 @@
+
+File Info:
+----------
+
+APK Name: titlewaves-demo-release.apk
+Application ID: randyg.titlewaves.demo
+
+APK Name: titlewaves-full-release.apk
+Application ID: randyg.titlewaves
+
+Changelog:
+----------
+
+ - AdMob integration (demo)
+ - Added basic drum presets
+ - Ability to feed custom words to the randomizer
+ - Fixed bug where app crashes if you enter only spaces and press play
